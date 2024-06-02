@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:layout_marginTop="150dp"
+        android:id="@+id/messageEditText"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:gravity="top"
+        android:hint="שתפו את הגרעין בכל רעיון שעולה על ליבכם"
+        android:padding="16dp"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/publishButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="שתפו אותנו"
+        android:textSize="18sp"
+        android:padding="16dp" />
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="650dp"
+        android:foregroundGravity="right"
+        app:srcCompat="@drawable/backbtn" />
+</RelativeLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:defaultFocusHighlightEnabled="true"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:forceDarkAllowed="false"
+    android:padding="16dp">
+
+    <!-- Username EditText -->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-0dp"
+        app:srcCompat="@drawable/logo" />
+
+
+    <Button
+        android:id="@+id/attend"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="110dp"
+        android:backgroundTint="#AE00B1"
+        android:layoutDirection="rtl"
+        android:text="מילוי נוכחות"
+        android:textColor="#EFE0EF"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/forum"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="210dp"
+        android:backgroundTint="#C470C4"
+        android:layoutDirection="rtl"
+        android:text="פורום"
+        android:textColor="#EFE0EF"
+        android:textSize="34sp"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="310dp"
+        android:backgroundTint="#EFE0EF"
+        android:layoutDirection="rtl"
+        android:text="הפרטים שלי"
+        android:textColor="#AE00B1"
+        android:textSize="34sp"
+        android:textStyle="bold"/>
+
+
+
+    <TextView
+        android:id="@+id/mess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="הודעות!!!"
+        android:layout_marginTop="415dp"
+        android:layoutDirection="rtl"
+        android:textColor="#AE00B1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="450dp"
+        android:textDirection="rtl">
+
+
+
+        <LinearLayout
+            android:id="@+id/messagesLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textDirection="rtl"
+            android:text="אין כרגע הודעות, כדאי שתעשו משהו שנוכל לפרסם (:" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="650dp"
+        app:srcCompat="@drawable/logout" />
+
+
+</RelativeLayout>

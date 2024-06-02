@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "230170894896",
+    "firebase_url": "https://bepurple-52f03-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "bepurple-52f03",
+    "storage_bucket": "bepurple-52f03.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230170894896:android:a8198119653a67bb0f43f5",
+        "android_client_info": {
+          "package_name": "com.example.purpleshirt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJlJ8xf9Vt-Lh2FPiA4QR0YzBjTWjzVX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
